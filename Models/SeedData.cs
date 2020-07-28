@@ -55,6 +55,15 @@ namespace MvcMovie.Models
                         Genre = "Western",
                         Rating = "R",
                         Price = 3.99M
+                    },
+
+                    new Movie
+                    {
+                        Title = "Seven",
+                        ReleaseDate = DateTime.Parse("1995-11-2"),
+                        Genre = "Crime",
+                        Rating = "R",
+                        Price = 3.99M
                     }
                 );
                 context.SaveChanges();
